@@ -1,0 +1,13 @@
+Weight=float(input("Enter your weight : "))
+Height=float(input("Enter your height : "))
+BMI=round(Weight/Height**2)
+if BMI<18:
+    print(f"Your BMI is {BMI} you are  underweight")
+elif  BMI<23:
+    print(f"Your BMI is {BMI} you are you are in normal weight")
+elif  BMI<28:
+    print(f"Your BMI is {BMI} you are you are slightly overweight")
+elif  BMI<33:
+    print(f"Your BMI is {BMI} you are you are in normal weight")
+else:
+    print(f"Your BMI is {BMI} you are you are overweight ")
